@@ -45,7 +45,7 @@ function RestaurantList(){
     return(
         <div>
             <div className="tdiv">
-                <h1 className='heading bg-light w-25 m-auto mt-3'>Restaurants List</h1>
+                <h1 className='heading bg-light w-25 m-auto mb-3'>Restaurants List</h1>
                 <table className="m-auto">
                     <thead>
                         <tr>
@@ -71,7 +71,7 @@ function RestaurantList(){
                 </table>
             </div>
             <div className='border m-5'>
-                <h1 className='m-3'>Add Restaurant</h1>
+                <h1 className='heading bg-light w-25 m-auto mt-3'>Add Restaurant</h1>
                 <form>
                     <div className='d-flex flex-row justify-content-center flex-wrap'>
                         <div className='m-3'>
