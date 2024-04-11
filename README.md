@@ -16,6 +16,7 @@
 ## Database
 This project implemented using `React.js` for the `frontend`, `Node.js` for the `backend`, and `MySQL` for the database.
 I have Created Database called `Stalcon` and tables `users`,`reservation`,`restaurants`
+
 ![image](https://github.com/Sandeep-1405/Stalcon-Assignment/assets/107021866/22de4a7b-09a2-4eb1-9dc2-27200b886932)
 
 ## Installation
