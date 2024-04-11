@@ -12,8 +12,8 @@ function Forgot(){
     
     useEffect(()=>{
         const token = Cookies.get('jwt')
-        if (token === undefined){
-            navigate("/login",{replace:true})
+        if (token !== undefined){
+            navigate("/",{replace:true})
         }
     })
 
