@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(120deg, #007bff, #d0314c);
+    height: 100vh;
+}
+
+.lcard{
+    background-color: #fff;
+    height: 100%;
+    width: 30vw;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+    .lcard{
+        width: 70vw;
+    }
+}
+  
+.content {
+    position: relative;
+    background: transparent;
+    border: 2px solid black;
+    text-align: center;
+    width: 40%;
+    height: 62%;
+    margin: auto;
+    top: 20%;
+}
+.loginheading{
+    color: rgb(18, 162, 229);
+    font-weight: bold;
+    font-size: 42px;
+    margin: 10px;
+}
+    
+.input{
+    height: 40px;
+    width: 85%;
+    margin: 10px;
+    
+    border-left: 4px solid aquamarine;
+    border-top: 0px solid rgba(212, 207, 207, 0.077);
+    border-bottom: 2px solid aquamarine;
+    border-right: 0px solid rgba(52, 212, 221, 0.725);
+    font-weight: bold;
+    padding-left: 10px;
+}
+.forgot{
+    margin: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(39, 40, 37);
+}
+.forgot:hover{
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+}
+.btns{
+    color: black;
+    background-color: #fff;
+    
+    height: 40px;
+    width: 40%;
+    font-size: 18px;
+}
+  
+@media screen and (max-width:768px){
+    .bg{
+      height: 100vh;
+    }
+    .content{
+      width: 90%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+}
