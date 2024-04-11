@@ -45,7 +45,7 @@ function RestaurantList(){
     return(
         <div>
             <div className="tdiv">
-                <h1 className='heading'>Restaurants List</h1>
+                <h1 className='heading bg-light w-25 m-auto mt-3'>Restaurants List</h1>
                 <table className="m-auto">
                     <thead>
                         <tr>
