@@ -18,7 +18,7 @@ function Userslist(){
     return(
         <div>
             <div className="tdiv">
-                <h1 className='heading'>Users List</h1>
+                <h1 className='heading bg-light w-25 m-auto mb-3'>Users List</h1>
                 <table className="m-auto">
                     <thead>
                         <tr>
